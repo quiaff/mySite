@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0px;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  margin: 2px;
+}
+
+.top {
+  background-color: #eaf6f6;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.art {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle-container {
+}
+
+.profile p {
+  width: 30%;
+  margin: auto;
+  line-height: 1.5;
+  color: #40514e;
+  font-weight: bold;
+}
+
+.profile-img {
+  width: 15%;
+  margin: 50px 0 15px 0;
+}
+
+hr {
+  border-style: none;
+  border-width: 6px;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+.skill-img-up {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-down {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  height: 100px;
+  width: 100%;
+  background-color: #66bfbf;
+  margin-top: 40px;
+  padding-top: 60px;
+}
+
+#copy {
+  padding-top: 25px;
+  color: #eaf6f6;
+  font-size: 12px;
+}
+
+.contact-me p {
+  width: 50%;
+  margin: 40px auto 40px auto;
+  line-height: 2;
+}
+.btn {
+  border-radius: 5px;
+  color: #eaf6f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #66bfbf;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 1px 1px 6px 0px grey;
+}
+
+.btn:hover {
+  background-color: #008891;
+}
+
+.footer-link {
+  color: #11999e;
+  padding: 0 40px 0 0;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
